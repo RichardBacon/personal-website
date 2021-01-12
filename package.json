@@ -1,1 +1,26 @@
-{"name":"personal-website","version":"1.0.0","private":true,"description":"Personal Website","author":"RichardJonBacon","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"license":"0BSD","dependencies":{"gatsby":"^2.26.1","react":"^16.13.1","react-dom":"^16.13.1"}}
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Website",
+  "author": "RichardJonBacon",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
