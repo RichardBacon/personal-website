@@ -17,8 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^3.8.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
