@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
+:root {
+  /* Defaults */
+  --default-font-size: 1.6rem;
+  --default-font-weight: 400;
+  --default-line-height: 1.5;
+
+  /* Colors */
+  --color-white: #fffdf7;
+  --color-primary: #61bdbb;
+  --color-secondary: #262a40;
+  --color-tertiary: #5cd1ff;
+
+  /* Fonts */
+  --font-primary: 'Roboto Slab', sans-serif;
+  --font-secondary: poppins, sans-serif;
+}
