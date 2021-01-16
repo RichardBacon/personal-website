@@ -8,7 +8,7 @@
 }
 
 .logo {
-  color: var(--color-white);
+  color: var(--color-primary);
   font-size: 2rem;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .navLink {
-  color: var(--color-white);
+  color: var(--color-primary);
   font-size: 2rem;
 }
 
 .navLink:hover {
-  color: var(--color-seondary);
+  color: var(--color-tertiary);
 }

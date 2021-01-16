@@ -1,0 +1,26 @@
+.hero {
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 8rem);
+  justify-content: center;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroPreText {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+.heroPrimaryText {
+  color: var(--color-tertiary);
+  font-size: 8rem;
+}
+
+.heroSecondaryText {
+  color: var(--color-primary);
+  font-size: 4.8rem;
+}
