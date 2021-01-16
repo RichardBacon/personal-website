@@ -7,10 +7,10 @@
   --default-line-height: 1.5;
 
   /* Colors */
-  --color-white: #fffdf7;
-  --color-primary: #61bdbb;
-  --color-secondary: #262a40;
-  --color-tertiary: #5cd1ff;
+  --color-white: #f7f7f7;
+  --color-primary: #368180;
+  --color-secondary: #d4e1ed;
+  --color-tertiary: #a64253;
 
   /* Fonts */
   --font-primary: 'Roboto Slab', sans-serif;
