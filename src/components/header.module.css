@@ -1,6 +1,5 @@
 .header {
   align-items: center;
-  background-color: var(--color-secondary);
   display: flex;
   height: 8rem;
   justify-content: space-between;
@@ -8,7 +7,8 @@
 }
 
 .logo {
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
   font-size: 2rem;
 }
 
@@ -26,9 +26,10 @@
 
 .navLink {
   color: var(--color-primary);
+  font-family: var(--font-secondary);
   font-size: 2rem;
 }
 
 .navLink:hover {
-  color: var(--color-tertiary);
+  color: var(--color-secondary);
 }

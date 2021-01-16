@@ -23,6 +23,11 @@ const SEO = () => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={creator} />
       <meta name="twitter:creator" content={creator} />
+
+      <script
+        src="https://kit.fontawesome.com/539708d6be.js"
+        crossorigin="anonymous"
+      ></script>
     </Helmet>
   );
 };
