@@ -1,0 +1,23 @@
+.footer {
+  align-items: center;
+  background-color: var(--color-white);
+  border-top: 0.4rem solid var(--color-secondary);
+  display: flex;
+  font-family: var(--font-secondary);
+  height: 8rem;
+  justify-content: space-between;
+  padding: 0 3.2rem;
+}
+
+.link {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+.link:hover {
+  color: var(--color-secondary);
+}
+
+.icon {
+  margin-left: 1rem;
+}
