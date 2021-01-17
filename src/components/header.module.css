@@ -1,6 +1,7 @@
 .header {
   align-items: center;
   background-color: var(--color-white);
+  border-bottom: 0.4rem solid var(--color-secondary);
   display: flex;
   height: 8rem;
   justify-content: space-between;
@@ -14,6 +15,10 @@
   color: var(--color-secondary);
   font-family: var(--font-secondary);
   font-size: 2rem;
+}
+
+.logo:hover {
+  color: var(--color-primary);
 }
 
 .navList {
