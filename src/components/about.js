@@ -5,10 +5,10 @@ import styles from './about.module.css';
 
 const About = ({ id }) => {
   const data = useStaticQuery(graphql`
-    query Image {
+    {
       mainImage: file(relativePath: { eq: "richardjonbacon.png" }) {
         childImageSharp {
-          fluid(maxWidth: 512) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }

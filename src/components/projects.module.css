@@ -1,0 +1,23 @@
+.section {
+  padding: 8rem 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 98rem;
+}
+
+.primaryHeading {
+  border-bottom: 0.4rem solid var(--color-secondary);
+  color: var(--color-secondary);
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+.project {
+  margin-bottom: 4rem;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
