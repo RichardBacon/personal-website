@@ -1,0 +1,7 @@
+name: Budding
+projectUrl: https://github.com/budding-team/budding-front-end
+githubUrl: https://github.com/budding-team/budding-front-end
+description: Budding is a mobile app that allows the user to track the growth and progress of plants. The front-end is a cross-platform mobile app, and the back-end is an API and database.
+tech: [React Native, Expo, Node, Express, PostgreSQL]
+image: ./images/budding.jpg
+date: 2020-06-01

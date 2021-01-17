@@ -1,0 +1,7 @@
+name: NC News
+projectUrl: https://nc-news-frontend-app.netlify.app/
+githubUrl: https://github.com/RichardJonBacon/nc--news
+description: NC News is a mock news and discussion website inspired by Reddit. It consists of a front-end website and a back-end API and databases.
+tech: [React, Node, Express, PostgreSQL]
+image: ./images/nc-news.png
+date: 2020-05-01
