@@ -1,24 +1,4 @@
-.section {
-  padding-bottom: var(--size-6);
-  padding-top: var(--size-6);
-}
-
-.container {
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
-
-.primaryHeading {
-  border-bottom: var(--border);
-  color: var(--color-secondary);
-  font-size: var(--size-3);
-  margin-bottom: var(--size-5);
-}
-
-.project {
-  margin-bottom: var(--size-5);
-}
-
-.project:last-child {
-  margin-bottom: 0;
+.content {
+  display: grid;
+  gap: var(--size-4);
 }

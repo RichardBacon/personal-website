@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
+import Section from '../components/section';
 import Hero from '../components/hero';
 import About from '../components/about';
 import Projects from '../components/projects';
@@ -14,10 +15,18 @@ const HomePage = ({ data }) => {
       <SEO />
       <Layout>
         <Hero />
-        <About id="about" />
-        <Projects id="projects" projects={data.projects.nodes} />
-        <Blog id="blog" />
-        <Contact id="contact" />
+        <Section id="about" heading="About">
+          <About />
+        </Section>
+        <Section id="projects" heading="Projects">
+          <Projects projects={data.projects.nodes} />
+        </Section>
+        <Section id="blog" heading="Blog">
+          <Blog id="blog" />
+        </Section>
+        <Section id="contact" heading="Contact">
+          <Contact />
+        </Section>
       </Layout>
     </>
   );

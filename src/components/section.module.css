@@ -1,0 +1,16 @@
+.section {
+  padding-bottom: var(--size-6);
+  padding-top: var(--size-6);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.heading {
+  border-bottom: var(--border);
+  color: var(--color-secondary);
+  font-size: var(--size-3);
+  margin-bottom: var(--size-5);
+}
