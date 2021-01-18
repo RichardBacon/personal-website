@@ -1,0 +1,19 @@
+.heading {
+  color: var(--color-secondary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: var(--color-secondary);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
