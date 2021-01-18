@@ -6,7 +6,7 @@ const Projects = ({ id, projects }) => {
   return (
     <div className={styles.content}>
       {projects.map((project) => (
-        <Project project={project} />
+        <Project key={project.id} project={project} />
       ))}
     </div>
   );
