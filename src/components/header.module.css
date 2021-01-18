@@ -1,11 +1,12 @@
 .header {
   align-items: center;
   background-color: var(--color-white);
-  border-bottom: 0.4rem solid var(--color-secondary);
+  border-bottom: var(--border);
   display: flex;
-  height: 8rem;
+  height: var(--header-height);
   justify-content: space-between;
-  padding: 0 3.2rem;
+  padding-left: var(--size-3);
+  padding-right: var(--size-3);
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -14,7 +15,7 @@
 .logo {
   color: var(--color-secondary);
   font-family: var(--font-secondary);
-  font-size: 2rem;
+  font-size: var(--font-size-2);
 }
 
 .logo:hover {
@@ -26,17 +27,17 @@
 }
 
 .navItem {
-  margin-right: 2rem;
+  margin-right: var(--size-3);
 }
 
-.navItem :last-child {
+.navItem:last-child {
   margin-right: 0;
 }
 
 .navLink {
   color: var(--color-primary);
   font-family: var(--font-secondary);
-  font-size: 2rem;
+  font-size: var(--font-size-2);
 }
 
 .navLink:hover {

@@ -1,12 +1,13 @@
 .footer {
   align-items: center;
   background-color: var(--color-white);
-  border-top: 0.4rem solid var(--color-secondary);
+  border-top: var(--border);
   display: flex;
   font-family: var(--font-secondary);
-  height: 8rem;
+  height: var(--footer-height);
   justify-content: space-between;
-  padding: 0 3.2rem;
+  padding-left: var(--size-3);
+  padding-right: var(--size-3);
 }
 
 .link {
@@ -19,5 +20,5 @@
 }
 
 .icon {
-  margin-left: 1rem;
+  margin-left: var(--size-0);
 }

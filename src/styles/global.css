@@ -6,6 +6,20 @@
   --default-font-weight: 400;
   --default-line-height: 1.5;
 
+  /* Sizing */
+  --size-0: 0.4rem;
+  --size-1: 1.6rem;
+  --size-2: 2.262rem;
+  --size-3: 3.199rem;
+  --size-4: 4.523rem;
+  --size-5: 6.396rem;
+  --size-6: 9.044rem;
+
+  /* Layout */
+  --max-width: 98rem;
+  --header-height: 8rem;
+  --footer-height: 8rem;
+
   /* Colors */
   --color-white: #fff;
   --color-primary: #222d44;
@@ -14,4 +28,13 @@
   /* Fonts */
   --font-primary: 'Roboto Slab', sans-serif;
   --font-secondary: poppins, sans-serif;
+  --font-size-1: 1.6rem;
+  --font-size-2: 2.262rem;
+  --font-size-3: 3.199rem;
+  --font-size-4: 4.523rem;
+  --font-size-5: 6.396rem;
+  --font-size-6: 9.044rem;
+
+  /* Borders */
+  --border: var(--size-0) solid var(--color-secondary);
 }

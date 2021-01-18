@@ -1,28 +1,30 @@
 .section {
-  padding: 8rem 0;
+  padding-bottom: var(--size-6);
+  padding-top: var(--size-6);
 }
 
 .container {
   margin: 0 auto;
-  max-width: 98rem;
+  max-width: var(--max-width);
 }
 
 .primaryHeading {
-  border-bottom: 0.4rem solid var(--color-secondary);
+  border-bottom: var(--border);
   color: var(--color-secondary);
-  font-size: 3.2rem;
-  margin-bottom: 4rem;
+  font-size: var(--size-3);
+  margin-bottom: var(--size-5);
 }
 
 .content {
   display: grid;
-  grid-gap: 4rem;
+  gap: var(--size-4);
   grid-template-columns: repeat(2, 1fr);
 }
 
 .paragraph {
+  color: var(--color-primary);
   font-family: var(--font-secondary);
-  margin-bottom: 2rem;
+  margin-bottom: var(--size-1);
 }
 
 .list {
@@ -32,7 +34,7 @@
 
 .link {
   color: var(--color-secondary);
-  font-size: 2rem;
+  font-size: var(--font-size-2);
 }
 
 .link:hover {
@@ -40,6 +42,6 @@
 }
 
 .icon {
-  font-size: 4rem;
-  margin-right: 1rem;
+  font-size: var(--font-size-3);
+  margin-right: var(--size-0);
 }
