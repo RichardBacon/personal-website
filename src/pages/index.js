@@ -6,6 +6,7 @@ import Hero from '../components/hero';
 import About from '../components/about';
 import Projects from '../components/projects';
 import Contact from '../components/contact';
+import Blog from '../components/blog';
 
 const HomePage = ({ data }) => {
   return (
@@ -15,6 +16,7 @@ const HomePage = ({ data }) => {
         <Hero />
         <About id="about" />
         <Projects id="projects" projects={data.projects.nodes} />
+        <Blog id="blog" />
         <Contact id="contact" />
       </Layout>
     </>
