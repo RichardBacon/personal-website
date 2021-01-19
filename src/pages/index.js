@@ -21,9 +21,6 @@ const HomePage = ({ data }) => {
         <Section id="projects" heading="Projects">
           <Projects projects={data.projects.nodes} />
         </Section>
-        <Section id="blog" heading="Blog">
-          <Blog id="blog" />
-        </Section>
         <Section id="contact" heading="Contact">
           <Contact />
         </Section>
