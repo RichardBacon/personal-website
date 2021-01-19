@@ -1,0 +1,37 @@
+.article {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.image {
+  margin-bottom: var(--size-2);
+}
+
+.heading {
+  border-bottom: var(--border);
+  color: var(--color-secondary);
+  font-size: var(--size-3);
+  margin-bottom: var(--size-2);
+}
+
+.details {
+  color: var(--color-secondary);
+  font-size: var(--font-size-1);
+}
+
+.content {
+  margin: var(--size-2) auto;
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: var(--size-2);
+  margin-bottom: var(--size-1);
+  margin-top: var(--size-3);
+}
+
+p {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  margin-bottom: var(--size-1);
+}
