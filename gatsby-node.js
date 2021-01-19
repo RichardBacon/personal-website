@@ -15,12 +15,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
   const result = await graphql(`
-    query {
-      allMarkdownRemark {
+    {
+      postQuery: allMarkdownRemark(
+        sort: { order: ASC, fields: [frontmatter___date] }
+      ) {
         edges {
           node {
             fields {
@@ -32,12 +34,18 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  if (result.errors) {
+    reporter.panic('error loading posts', result.errors);
+    return;
+  }
+
+  const posts = result.data.postQuery.edges;
+  posts.forEach((post) => {
     createPage({
-      path: node.fields.slug,
+      path: post.node.fields.slug,
       component: path.resolve('./src/templates/post.js'),
       context: {
-        slug: node.fields.slug,
+        slug: post.node.fields.slug,
       },
     });
   });
