@@ -1,7 +1,9 @@
 .content {
+  align-items: center;
   display: grid;
   gap: var(--size-4);
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 }
 
 .paragraph {
@@ -16,9 +18,20 @@
   margin-bottom: var(--size-1);
 }
 
+.listHeading {
+  color: var(--color-secondary);
+  font-size: var(--font-size-1);
+  margin-bottom: var(--size-0);
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: var(--size-1);
+}
+
+.list:last-child {
+  margin-bottom: 0;
 }
 
 .item {
@@ -32,4 +45,28 @@
 
 .image {
   border: var(--border);
+  margin-bottom: var(--size-4);
+  width: 36rem;
+}
+
+.socialList {
+  display: flex;
+  justify-content: center;
+}
+
+.socialItem {
+  margin-right: var(--size-3);
+}
+
+.socialItem:last-child {
+  margin-right: 0;
+}
+
+.socialIcon {
+  color: var(--color-secondary);
+  font-size: var(--size-4);
+}
+
+.socialIcon:hover {
+  color: var(--color-primary);
 }
