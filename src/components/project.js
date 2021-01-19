@@ -1,16 +1,35 @@
 import React from 'react';
-
+import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styles from './project.module.css';
 
 const Project = ({ project }) => {
-  const { name, projectUrl, githubUrl, description, tech, image } = project;
+  const {
+    title,
+    projectUrl,
+    githubUrl,
+    description,
+    tech,
+    image,
+  } = project.frontmatter;
+
+  const data = useStaticQuery(graphql`
+    {
+      defaultImage: file(relativePath: { eq: "code.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
 
   return (
     <div className={styles.content}>
       <div>
         <header className={styles.header}>
-          <h3 className={styles.heading}>{name}</h3>
+          <h3 className={styles.heading}>{title}</h3>
           <div className={styles.links}>
             <a className={styles.link} href={projectUrl} target="blank">
               <i className="fas fa-external-link-alt"></i>
@@ -21,7 +40,7 @@ const Project = ({ project }) => {
           </div>
         </header>
 
-        <p className={styles.paragraph}>{description}</p>
+        <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
 
         <div>
           <h4 className={styles.secondaryHeading}>Tech</h4>
@@ -35,10 +54,15 @@ const Project = ({ project }) => {
           </ul>
         </div>
       </div>
+
       <Img
         className={styles.image}
-        fluid={image.childImageSharp.fluid}
-        alt={name}
+        fluid={
+          image
+            ? image.childImageSharp.fluid
+            : data.defaultImage.childImageSharp.fluid
+        }
+        alt={title}
       />
     </div>
   );

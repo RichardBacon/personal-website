@@ -21,6 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(`
     {
       postQuery: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/posts/" } }
         sort: { order: ASC, fields: [frontmatter___date] }
       ) {
         edges {

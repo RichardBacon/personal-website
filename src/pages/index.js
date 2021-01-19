@@ -33,21 +33,31 @@ export default HomePage;
 
 export const query = graphql`
   {
-    projects: allProject(sort: { fields: date, order: DESC }) {
+    projects: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      filter: {
+        fileAbsolutePath: { regex: "/content/projects/" }
+        frontmatter: { featured: { eq: true } }
+      }
+    ) {
       nodes {
         id
-        description
-        githubUrl
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
+        html
+        frontmatter {
+          featured
+          title
+          projectUrl
+          tech
+          githubUrl
+          date
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-        name
-        projectUrl
-        tech
       }
     }
   }
