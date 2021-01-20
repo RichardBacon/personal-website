@@ -26,45 +26,47 @@ const Project = ({ project }) => {
   `);
 
   return (
-    <div className={styles.content}>
-      <div>
-        <header className={styles.header}>
-          <h3 className={styles.heading}>{title}</h3>
-          <div className={styles.links}>
-            <a className={styles.link} href={projectUrl} target="blank">
-              <i className="fas fa-external-link-alt"></i>
-            </a>
-            <a className={styles.link} href={githubUrl} target="blank">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
-        </header>
-
-        <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
-
-        <div>
-          <h4 className={styles.secondaryHeading}>Tech</h4>
-          <ul className={styles.list}>
-            {tech.map((element) => (
-              <li key={element} className={styles.item}>
-                <i className={`fas fa-angle-right ${styles.icon}`}></i>
-                {element}
-              </li>
-            ))}
-          </ul>
+    <>
+      <header className={styles.header}>
+        <h3 className={styles.heading}>{title}</h3>
+        <div className={styles.links}>
+          <a className={styles.link} href={projectUrl} target="blank">
+            <i className="fas fa-external-link-alt"></i>
+          </a>
+          <a className={styles.link} href={githubUrl} target="blank">
+            <i className="fab fa-github"></i>
+          </a>
         </div>
-      </div>
+      </header>
 
-      <Img
-        className={styles.image}
-        fluid={
-          image
-            ? image.childImageSharp.fluid
-            : data.defaultImage.childImageSharp.fluid
-        }
-        alt={title}
-      />
-    </div>
+      <div className={styles.content}>
+        <div>
+          <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
+
+          <div>
+            <h4 className={styles.secondaryHeading}>Tech</h4>
+            <ul className={styles.list}>
+              {tech.map((element) => (
+                <li key={element} className={styles.item}>
+                  <i className={`fas fa-angle-right ${styles.icon}`}></i>
+                  {element}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <Img
+          className={styles.image}
+          fluid={
+            image
+              ? image.childImageSharp.fluid
+              : data.defaultImage.childImageSharp.fluid
+          }
+          alt={title}
+        />
+      </div>
+    </>
   );
 };
 

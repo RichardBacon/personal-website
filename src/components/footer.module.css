@@ -4,6 +4,7 @@
   border-top: var(--border);
   display: flex;
   font-family: var(--font-secondary);
+  font-size: var(--font-size-1);
   height: var(--footer-height);
   justify-content: space-between;
   padding-left: var(--size-3);
@@ -21,4 +22,11 @@
 
 .icon {
   margin-left: var(--size-0);
+}
+
+@media only screen and (max-width: 37.5em) {
+  .footer {
+    padding-left: var(--size-0);
+    padding-right: var(--size-0);
+  }
 }

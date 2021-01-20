@@ -1,4 +1,7 @@
-.content {
-  display: grid;
-  gap: var(--size-4);
+.project {
+  margin-bottom: var(--size-4);
+}
+
+.project:last-child {
+  margin-bottom: 0;
 }

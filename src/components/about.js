@@ -18,7 +18,7 @@ const About = ({ id }) => {
 
   return (
     <div className={styles.content}>
-      <div>
+      <div className={styles.text}>
         <div className={styles.bio}>
           <h3 className={styles.heading}>My Bio</h3>
           <p className={styles.paragraph}>

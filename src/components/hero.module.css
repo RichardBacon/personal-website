@@ -10,6 +10,12 @@
   flex-direction: column;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .heroText {
+    width: 75%;
+  }
+}
+
 .heroPreText {
   color: var(--color-primary);
   font-family: var(--font-primary);

@@ -4,6 +4,12 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+@media only screen and (max-width: 56.25em) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .paragraph {
   color: var(--color-primary);
   font-family: var(--font-secondary);
@@ -12,12 +18,20 @@
 
 .list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.item {
+  margin-right: var(--size-2);
+}
+
+.item:last-child {
+  margin-right: 0;
 }
 
 .link {
   color: var(--color-secondary);
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-1);
 }
 
 .link:hover {

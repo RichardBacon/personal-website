@@ -12,6 +12,12 @@
   z-index: 999;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .header {
+    display: none;
+  }
+}
+
 .logo {
   color: var(--color-secondary);
   font-family: var(--font-secondary);

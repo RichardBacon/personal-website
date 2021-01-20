@@ -6,6 +6,16 @@
   justify-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .text {
+    grid-row: 2;
+  }
+}
+
 .paragraph {
   color: var(--color-primary);
   font-family: var(--font-secondary);
@@ -47,6 +57,12 @@
   border: var(--border);
   margin-bottom: var(--size-4);
   width: 36rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .image {
+    width: 24rem;
+  }
 }
 
 .socialList {

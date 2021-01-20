@@ -3,6 +3,6 @@
   "plugins": ["stylelint-order"],
   "rules": {
     "order/properties-alphabetical-order": true,
-    "rule-empty-line-before": "always"
+    "rule-empty-line-before": ["always", { "ignore": ["first-nested"] }]
   }
 }
