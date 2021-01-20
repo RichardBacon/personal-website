@@ -54,5 +54,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Richard Bacon',
+        short_name: 'Richard Bacon',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'standalone',
+        icon: 'content/images/icon.png',
+      },
+    },
+    'gatsby-plugin-offline',
   ],
 };
