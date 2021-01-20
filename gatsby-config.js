@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://richardjonbacon.com',
     creator: '@RichardJonBacon',
     image:
-      'https://res.cloudinary.com/richardjonbacon/image/upload/v1610722300/sample.jpg',
+      'https://res.cloudinary.com/richardjonbacon/image/upload/v1611161873/personal-website.png',
     type: 'website',
   },
   plugins: [
