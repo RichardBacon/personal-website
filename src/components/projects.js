@@ -4,8 +4,8 @@ import styles from './projects.module.css';
 
 const Projects = ({ id, projects }) => {
   return projects.map((project) => (
-    <div className={styles.project}>
-      <Project key={project.id} project={project} />
+    <div key={project.id} className={styles.project}>
+      <Project project={project} />
     </div>
   ));
 };
