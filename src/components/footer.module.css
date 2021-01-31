@@ -3,17 +3,22 @@
   background-color: var(--color-white);
   border-top: var(--border);
   display: flex;
-  font-family: var(--font-secondary);
-  font-size: var(--font-size-1);
   height: var(--footer-height);
   justify-content: space-between;
   padding-left: var(--size-3);
   padding-right: var(--size-3);
 }
 
+.text {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-1);
+}
+
 .link {
   color: var(--color-primary);
   font-family: var(--font-secondary);
+  font-size: var(--font-size-1);
 }
 
 .link:hover {

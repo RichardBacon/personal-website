@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      &copy; Richard Bacon 2021
+      <small className={styles.text}>&copy; Richard Bacon 2021</small>
       <a
         className={styles.link}
         href="https://github.com/RichardJonBacon/personal-website"
