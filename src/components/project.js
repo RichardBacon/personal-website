@@ -41,19 +41,20 @@ const Project = ({ project }) => {
 
       <div className={styles.content}>
         <div>
-          <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
+          <div
+            className={styles.project}
+            dangerouslySetInnerHTML={{ __html: project.html }}
+          ></div>
 
-          <div>
-            <h4 className={styles.secondaryHeading}>Tech</h4>
-            <ul className={styles.list}>
-              {tech.map((element) => (
-                <li key={element} className={styles.item}>
-                  <i className={`fas fa-angle-right ${styles.icon}`}></i>
-                  {element}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <h4 className={styles.secondaryHeading}>Tech</h4>
+          <ul className={styles.list}>
+            {tech.map((element) => (
+              <li key={element} className={styles.item}>
+                <i className={`fas fa-angle-right ${styles.icon}`}></i>
+                {element}
+              </li>
+            ))}
+          </ul>
         </div>
 
         <Img

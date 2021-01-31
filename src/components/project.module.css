@@ -11,6 +11,12 @@
   }
 }
 
+.project p {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  margin-bottom: var(--size-1);
+}
+
 .header {
   align-items: center;
   display: flex;
