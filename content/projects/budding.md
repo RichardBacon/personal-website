@@ -4,7 +4,7 @@ title: 'Budding'
 projectUrl: 'https://github.com/budding-team/budding-front-end'
 githubUrl: 'https://github.com/budding-team/budding-front-end'
 tech: ['React Native', 'Expo', 'Node', 'Express', 'PostgreSQL']
-image: './images/budding.jpg'
+image: './images/budding.png'
 date: '2020-06-01'
 ---
 

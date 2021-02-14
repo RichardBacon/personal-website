@@ -4,7 +4,7 @@ title: 'Dev News'
 projectUrl: 'https://dev-news-frontend.netlify.app/'
 githubUrl: 'https://github.com/RichardJonBacon/dev-news'
 tech: ['React', 'Node', 'Express', 'PostgreSQL']
-image: './images/dev-news.jpg'
+image: './images/dev-news.png'
 date: '2020-05-01'
 ---
 
