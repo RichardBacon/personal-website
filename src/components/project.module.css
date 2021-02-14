@@ -71,20 +71,12 @@
 
 .image {
   border: var(--border);
-  height: 32rem;
-  width: 32rem;
+  height: auto;
+  width: 100%;
 }
 
 @media only screen and (max-width: 56.25em) {
   .image {
     grid-row: 1;
-  }
-}
-
-@media only screen and (max-width: 37.5em) {
-  .image {
-    grid-row: 1;
-    height: 24rem;
-    width: 24rem;
   }
 }

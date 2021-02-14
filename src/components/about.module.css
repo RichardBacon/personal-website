@@ -55,14 +55,9 @@
 
 .image {
   border: var(--border);
+  height: auto;
   margin-bottom: var(--size-4);
-  width: 36rem;
-}
-
-@media only screen and (max-width: 37.5em) {
-  .image {
-    width: 24rem;
-  }
+  width: 100%;
 }
 
 .socialList {
@@ -71,7 +66,7 @@
 }
 
 .socialItem {
-  margin-right: var(--size-3);
+  margin-right: var(--size-4);
 }
 
 .socialItem:last-child {
