@@ -78,6 +78,8 @@
   font-size: var(--size-4);
 }
 
-.socialIcon:hover {
-  color: var(--color-primary);
+@media (hover: hover) and (pointer: fine) {
+  .socialIcon:hover {
+    color: var(--color-primary);
+  }
 }

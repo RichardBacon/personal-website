@@ -24,8 +24,10 @@
   font-size: var(--font-size-2);
 }
 
-.logo:hover {
-  color: var(--color-primary);
+@media (hover: hover) and (pointer: fine) {
+  .logo:hover {
+    color: var(--color-primary);
+  }
 }
 
 .navList {
@@ -46,6 +48,8 @@
   font-size: var(--font-size-2);
 }
 
-.navLink:hover {
-  color: var(--color-secondary);
+@media (hover: hover) and (pointer: fine) {
+  .navLink:hover {
+    color: var(--color-secondary);
+  }
 }

@@ -15,6 +15,8 @@
   font-size: var(--font-size-1);
 }
 
-.link:hover {
-  color: var(--color-primary);
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    color: var(--color-primary);
+  }
 }
