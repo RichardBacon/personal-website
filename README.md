@@ -1,6 +1,6 @@
 # Personal Website
 
-https://www.richardjonbacon.com/
+https://www.richardjohnbacon.com/
 
 My personal website which contains a short bio, my portfolio and contact information.
 
@@ -40,7 +40,7 @@ The process I followed was:
 
 ## Authors
 
-- **Richard Bacon** - [RichardJonBacon](https://github.com/RichardJonBacon)
+- **Richard Bacon** - [RichardBacon](https://github.com/RichardBacon)
 
 ## License
 

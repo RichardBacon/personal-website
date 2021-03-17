@@ -23,7 +23,7 @@ const Contact = ({ id }) => {
         <li className={styles.item}>
           <a
             className={styles.link}
-            href="https://linkedin.com/in/richardjonbacon"
+            href="https://linkedin.com/in/richardjohnbacon"
             target="blank"
           >
             <i className={`fab fa-linkedin ${styles.icon}`}></i>
@@ -31,7 +31,7 @@ const Contact = ({ id }) => {
           </a>
         </li>
         <li className={styles.item}>
-          <a className={styles.link} href="mailto:richardjonbacon@gmail.com">
+          <a className={styles.link} href="mailto:richardjohnbacon@gmail.com">
             <i className={`far fa-paper-plane ${styles.icon}`}></i>
             Email
           </a>

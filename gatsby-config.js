@@ -3,10 +3,10 @@ module.exports = {
     title: 'Richard Bacon',
     description:
       'Richard Bacon is a creative front end developer with a background in both coding and design.',
-    url: 'https://richardjonbacon.com',
+    url: 'https://richardjohnbacon.com',
     creator: '@RichardJonBacon',
     image:
-      'https://res.cloudinary.com/richardjonbacon/image/upload/v1611161873/personal-website.png',
+      'https://res.cloudinary.com/richardjohnbacon/image/upload/v1611161873/personal-website.png',
     type: 'website',
   },
   plugins: [

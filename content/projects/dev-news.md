@@ -2,7 +2,7 @@
 featured: true
 title: 'Dev News'
 projectUrl: 'https://dev-news-frontend.netlify.app/'
-githubUrl: 'https://github.com/RichardJonBacon/dev-news'
+githubUrl: 'https://github.com/RichardBacon/dev-news'
 tech: ['React', 'Node', 'Express', 'PostgreSQL']
 image: './images/dev-news.png'
 date: '2020-05-01'

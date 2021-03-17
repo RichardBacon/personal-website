@@ -7,7 +7,7 @@ const Footer = () => {
       <small className={styles.text}>&copy; Richard Bacon 2021</small>
       <a
         className={styles.link}
-        href="https://github.com/RichardJonBacon/personal-website"
+        href="https://github.com/RichardBacon/personal-website"
         target="blank"
       >
         Source Code

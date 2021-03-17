@@ -6,7 +6,7 @@ import styles from './about.module.css';
 const About = ({ id }) => {
   const data = useStaticQuery(graphql`
     {
-      mainImage: file(relativePath: { eq: "richardjonbacon.png" }) {
+      mainImage: file(relativePath: { eq: "richardjohnbacon.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
