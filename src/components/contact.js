@@ -13,7 +13,7 @@ const Contact = ({ id }) => {
         <li className={styles.item}>
           <a
             className={styles.link}
-            href="https://twitter.com/richardjonbacon"
+            href="https://twitter.com/richardbcodes"
             target="blank"
           >
             <i className={`fab fa-twitter ${styles.icon}`}></i>

@@ -84,22 +84,17 @@ const About = ({ id }) => {
 
         <ul className={styles.socialList}>
           <li className={styles.socialItem}>
-            <a href="https://github.com/RichardJonBacon" target="blank">
+            <a href="https://github.com/RichardBacon" target="blank">
               <i className={`fab fa-github ${styles.socialIcon}`}></i>
             </a>
           </li>
           <li className={styles.socialItem}>
-            <a href="https://codepen.io/RichardJonBacon" target="blank">
-              <i className={`fab fa-codepen ${styles.socialIcon}`}></i>
-            </a>
-          </li>
-          <li className={styles.socialItem}>
-            <a href="https://twitter.com/RichardJonBacon" target="blank">
+            <a href="https://twitter.com/richardbcodes" target="blank">
               <i className={`fab fa-twitter ${styles.socialIcon}`}></i>
             </a>
           </li>
           <li className={styles.socialItem}>
-            <a href="https://linkedin.com/in/RichardJonBacon" target="blank">
+            <a href="https://linkedin.com/in/richardjohnbacon" target="blank">
               <i className={`fab fa-linkedin ${styles.socialIcon}`}></i>
             </a>
           </li>
