@@ -4,7 +4,7 @@ module.exports = {
     description:
       'Richard Bacon is a creative front end developer with a background in both coding and design.',
     url: 'https://richardjohnbacon.com',
-    creator: '@RichardJonBacon',
+    creator: '@richardbcodes',
     image:
       'https://res.cloudinary.com/richardjohnbacon/image/upload/v1611161873/personal-website.png',
     type: 'website',

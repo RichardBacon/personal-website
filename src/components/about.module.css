@@ -1,9 +1,7 @@
 .content {
-  align-items: center;
   display: grid;
   gap: var(--size-4);
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -14,6 +12,10 @@
   .text {
     grid-row: 2;
   }
+}
+
+.bio {
+  margin-bottom: var(--size-4);
 }
 
 .paragraph {
@@ -56,8 +58,9 @@
 .image {
   border: var(--border);
   height: auto;
+  margin: 0 auto;
   margin-bottom: var(--size-4);
-  width: 100%;
+  width: 50%;
 }
 
 .socialList {

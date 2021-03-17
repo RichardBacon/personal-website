@@ -20,59 +20,19 @@ const About = ({ id }) => {
     <article className={styles.content}>
       <div className={styles.text}>
         <div className={styles.bio}>
-          <h3 className={styles.heading}>My Bio</h3>
           <p className={styles.paragraph}>
-            I'm Richard, a software developer based near Nottingham, England.
+            I'm Richard, a software developer from Nottingham, England.
           </p>
           <p className={styles.paragraph}>
-            I have a background in both coding and design, now I combine my
-            skills together to create beautiful apps and websites.
+            I'm interested in all areas of modern web development, in particular
+            the React ecosystem and the JAMStack.
           </p>
           <p className={styles.paragraph}>
-            I'm passionate about user focussed design and clean, efficient,
-            easily maintainable code.
-          </p>
-          <p className={styles.paragraph}>
-            I'm a lifelong learner and I enjoy taking on new challenges. I have
-            a degree in computer science and am also a software development
-            bootcamp graduate.
+            I enjoy building my own personal projects as a method of learning
+            and practising, as well as contributing to collabortaive and open
+            source projects.
           </p>
         </div>
-
-        <h3 className={styles.heading}>My Skills</h3>
-
-        <h4 className={styles.listHeading}>Front End</h4>
-        <ul className={styles.list}>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>HTML
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>CSS
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>
-            JavaScript
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>React
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>Gatsby
-          </li>
-        </ul>
-
-        <h4 className={styles.listHeading}>Back End</h4>
-        <ul className={styles.list}>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>Node
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>Express
-          </li>
-          <li className={styles.item}>
-            <i className={`fas fa-angle-right ${styles.icon}`}></i>SQL
-          </li>
-        </ul>
       </div>
 
       <div>
