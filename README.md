@@ -2,9 +2,9 @@
 
 https://www.richardjohnbacon.com/
 
-My personal website which contains a short bio, my portfolio and contact information.
+My personal website containing a short bio, portfolio and contact information.
 
-The site is hosted on [Netlify](https://www.netlify.com/), with a custom domain.
+The site is hosted on [Netlify](https://www.netlify.com/), using a custom domain.
 
 ## Development
 
@@ -27,11 +27,6 @@ The process I followed was:
 - Add pwa and offline support
 - Perform accessibility and performance checks using Lighthouse
 
-## Future Plans
-
-- Add a blog and feature recent posts on the home page
-- Add a theme switcher and / or dark mode
-
 ## Built With
 
 - [Gatsby](https://gatsbyjs.com/)
@@ -44,4 +39,4 @@ The process I followed was:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
