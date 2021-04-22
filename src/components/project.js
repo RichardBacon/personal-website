@@ -29,14 +29,6 @@ const Project = ({ project }) => {
     <>
       <header className={styles.header}>
         <h3 className={styles.heading}>{title}</h3>
-        <div className={styles.links}>
-          <a className={styles.link} href={projectUrl} target="blank">
-            <i className="fas fa-external-link-alt"></i>
-          </a>
-          <a className={styles.link} href={githubUrl} target="blank">
-            <i className="fab fa-github"></i>
-          </a>
-        </div>
       </header>
 
       <div className={styles.content}>
@@ -55,6 +47,16 @@ const Project = ({ project }) => {
               </li>
             ))}
           </ul>
+
+          <div className={styles.links}>
+            <h4 className={styles.secondaryHeading}>Links</h4>
+            <a className={styles.link} href={projectUrl} target="blank">
+              App <i className="fas fa-external-link-alt"></i>
+            </a>
+            <a className={styles.link} href={githubUrl} target="blank">
+              Source Code <i className="fab fa-github"></i>
+            </a>
+          </div>
         </div>
 
         <Img
