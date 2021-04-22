@@ -5,8 +5,8 @@ const Contact = ({ id }) => {
   return (
     <div className={styles.content}>
       <p className={styles.paragraph}>
-        I'm always happy to connect with people, you can find me on social media
-        or contact me via email.
+        I'm always happy to connect, find me on social media or contact me by
+        email.
       </p>
 
       <ul className={styles.list}>
