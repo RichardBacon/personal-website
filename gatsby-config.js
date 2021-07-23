@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Richard Bacon',
-    description:
-      'Richard Bacon is a creative front end developer with a background in both coding and design.',
+    description: 'Richard Bacon is a software developer from Nottingham.',
     url: 'https://richardjohnbacon.com',
     creator: '@richardbcodes',
     image:
