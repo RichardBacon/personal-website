@@ -21,9 +21,9 @@ const About = ({ id }) => {
       <div className={styles.text}>
         <div className={styles.bio}>
           <p className={styles.paragraph}>
-            I'm Richard, a software developer from Nottingham, England. I'm a
-            coding bootcamp graduate with an interest in all aspects of modern
-            web development.
+            I'm Richard, a software developer from Nottingham, England. I have
+            an interest in all modern web technologies, especially the React
+            ecosystem and the JAMStack.
           </p>
           <p className={styles.paragraph}>
             I'm a creative problem solver and have a particular passion for
